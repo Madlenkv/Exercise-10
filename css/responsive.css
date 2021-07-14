@@ -1,0 +1,30 @@
+@media (max-width: 1039px) {
+    .section {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .first-block {
+        margin-bottom: 45px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 800px) {
+    .navigation {
+        display: none;
+    }
+    .burger {
+        display: block;
+    }
+}
+
+@media (max-width: 572px) {
+    h1 {
+        text-align: center;
+    }
+}

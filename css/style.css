@@ -96,8 +96,8 @@ h2 {
         justify-content: space-between;
 }
 
-
-.left-block {
+/* first block */
+.first-block {
     max-width: 240px;
     width: 100%;
 }
@@ -110,7 +110,7 @@ h3 {
 }
 
 h6, 
-.left-block p,
+.first-block p,
 .article p {
     font-family: 'Raleway';
     font-size: 16px;
@@ -121,9 +121,9 @@ h6 {
     font-weight: bold;
 }
 
-/* right block */
+/* second block */
 
-.right-block {
+.second-block {
     max-width: 974px;
     width: 100%;
     display: -webkit-box;
